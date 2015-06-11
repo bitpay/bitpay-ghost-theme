@@ -1,6 +1,9 @@
 /*------------------------------------*\
     #COLORS
 \*------------------------------------*/
+.inner {
+  max-width: 1000px; }
+
 .no-cover.main-header {
   background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%); }
 

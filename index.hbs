@@ -4,13 +4,15 @@
 {{! The big featured header }}
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
+      <div class="main-header-content inner">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
+      </div>
     </nav>
     <div class="vertical">
-        <div class="main-header-content inner">
+        <div class="inner">
             <h1 class="page-title">{{@blog.title}}</h1>
             <h2 class="page-description">{{@blog.description}}</h2>
             <input type="text" value="Submit" placeholder="Email Address">
@@ -19,10 +21,33 @@
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-{{! The main content area on the homepage }}
-<main id="content" class="content" role="main">
 
+
+
+
+
+<div class="inner">
+
+
+
+    {{! The main content area on the homepage }}
+    <main id="content" class="content large-9 columns" role="main">
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
+    </main>
 
-</main>
+
+    <div class="large-3 columns">
+      <h4>Categories</h4>
+      <ul>
+        <li>Catgories</li>
+        <li>Catgories</li>
+        <li>Catgories</li>
+        <li>Catgories</li>
+        <li>Catgories</li>
+      </ul>
+      <h4>About</h4>
+      <p>An open, staff-driven window into exciting developments, upcoming opportunities, and lessons learned in developing enterprise-grade infrastructure for bitcoin</p>
+    </div>
+
+</div>
