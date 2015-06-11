@@ -14,7 +14,6 @@
     <div class="vertical">
         <div class="inner">
             <h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>
             <input type="text" value="Submit" placeholder="Email Address">
         </div>
     </div>
@@ -40,14 +39,26 @@
     <div class="large-3 columns">
       <h4>Categories</h4>
       <ul>
-        <li>Catgories</li>
-        <li>Catgories</li>
-        <li>Catgories</li>
-        <li>Catgories</li>
-        <li>Catgories</li>
+        <a href="/tag/events"><li>Events</li></a>
+        <a href="/tag/engineering"><li>Engineering</li></a>
+        <a href="/tag/merchants"><li>Merchants</li></a>
+        <a href="/tag/product"><li>Product</li></a>
+        <a href="/tag/team"><li>Team</li></a>
       </ul>
+
       <h4>About</h4>
-      <p>An open, staff-driven window into exciting developments, upcoming opportunities, and lessons learned in developing enterprise-grade infrastructure for bitcoin</p>
+      <p>{{@blog.description}}</p>
+
+
+      <h4>Social</h4>
+      <ul>
+        <li>RSS</li>
+        <li>Facebook</li>
+        <li>Github</li>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+      </ul>
+
     </div>
 
 </div>
