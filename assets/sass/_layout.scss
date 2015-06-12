@@ -1,4 +1,26 @@
 
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+
+body {
+  background-color: #F3F6F7;
+  font-family: 'Karla', sans-serif;
+}
+
+
+
+.site-wrapper{
+  max-width: 1450px;
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+
 
 .inner {
   max-width: 1000px;

@@ -1,6 +1,23 @@
 /*------------------------------------*\
     #COLORS
 \*------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+body {
+  background-color: #F3F6F7;
+  font-family: 'Karla', sans-serif; }
+
+.site-wrapper {
+  max-width: 1450px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff; }
+
 .inner {
   max-width: 1000px; }
 
@@ -9,3 +26,67 @@
 
 .post {
   margin: 0; }
+
+.post-title {
+  font-family: Karla-Regular;
+  line-height: 28px;
+  font-weight: 400; }
+  .post-title a {
+    font-size: 24px;
+    color: #546FB4; }
+
+.post-date {
+  font-family: Karla-Bold;
+  font-size: 14px;
+  color: #8A8A8A;
+  letter-spacing: 1px;
+  line-height: 17px;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-left: none; }
+
+.post-excerpt {
+  font-family: Karla-Regular;
+  font-size: 16px;
+  color: #575757;
+  line-height: 27.39px;
+  margin-top: 1em;
+  text-align: justify; }
+
+.author-thumb {
+  width: 40px;
+  height: 40px; }
+
+.post-meta a {
+  line-height: 3em;
+  line-height: 3em;
+  font-size: 15px;
+  color: #6B6B6B;
+  margin-left: 0.5em; }
+
+.sidebar-item {
+  margin-bottom: 2em; }
+
+.sidebar-title {
+  font-family: Karla-Bold;
+  font-size: 14px;
+  color: #8A8A8A;
+  letter-spacing: 1px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 1em; }
+
+.sidebar-categories a {
+  text-decoration: none;
+  color: #546FB4; }
+.sidebar-categories ul {
+  padding-left: 0; }
+.sidebar-categories li {
+  margin: 0em 0;
+  list-style-type: none; }
+
+.sidebar-about p {
+  font-family: Karla-Regular;
+  font-size: 15px;
+  color: rgba(121, 121, 121, 0.9);
+  line-height: 28.5px; }
