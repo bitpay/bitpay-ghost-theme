@@ -4,4 +4,35 @@
 
 .no-cover.main-header {
   background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
+  max-height: 30vh;
+  border-bottom: 1px solid #EDEDED;
+}
+
+
+.main-header {
+  margin-bottom: 0;
+}
+
+.page-title {
+  font-family: Karla-Regular;
+  font-size: 24px;
+  color: #898989!important;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 1em;
+}
+
+// Removes weird blue focus
+textarea, input { outline: none; }
+
+.header-input {
+  width: 21em;
+
+  height: 2em;
+  padding: 1em;
+  border-radius: 124px;
+  border: 1px solid #C6C6C6;
+  &:focus {
+    border: 1px solid #898989;
+  }
 }
