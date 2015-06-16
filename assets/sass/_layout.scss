@@ -1,11 +1,9 @@
-
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 
 body {
   background-color: #F3F6F7;
   font-family: 'Karla', sans-serif;
 }
-
 
 
 .site-wrapper{
@@ -26,22 +24,10 @@ body {
   max-width: 1000px;
 }
 
-// .col-9-12 {
-//   width: 74.99%;
-//   float: left;
-// }
-//
-// .col-3-12 {
-//   width: 24.99%;
-//   float: left;
-// }
-
-
-
-.content {
-
-}
-
-.sidebar {
+.pagination {
+  margin: 2em 0em;
+  a {
+    border-radius: 5em;
+    }
 
 }

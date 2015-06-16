@@ -38,3 +38,34 @@
   line-height: 28.5px;
   }
 }
+
+
+.sidebar-social {
+  ul {
+    text-align: justify;
+    padding-left: 0;
+  }
+  ul:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+  }
+  ul:before {
+      content: '';
+      display: block;
+      margin-top: -1.25em;
+  }
+  li {
+      color: #fff;
+      display: inline-block;
+      font: 1em/1.5 sans-serif;
+      margin-right: -.25em;
+      padding: 0em;;
+      position: relative;
+      top: 1.25em;
+  }
+
+
+
+
+}

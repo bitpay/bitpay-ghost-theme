@@ -24,6 +24,11 @@ body {
 .inner {
   max-width: 1000px; }
 
+.pagination {
+  margin: 2em 0em; }
+  .pagination a {
+    border-radius: 5em; }
+
 .no-cover.main-header {
   background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%);
   max-height: 30vh;
@@ -139,3 +144,23 @@ textarea, input {
   font-size: 15px;
   color: rgba(121, 121, 121, 0.9);
   line-height: 28.5px; }
+
+.sidebar-social ul {
+  text-align: justify;
+  padding-left: 0; }
+.sidebar-social ul:after {
+  content: '';
+  display: inline-block;
+  width: 100%; }
+.sidebar-social ul:before {
+  content: '';
+  display: block;
+  margin-top: -1.25em; }
+.sidebar-social li {
+  color: #fff;
+  display: inline-block;
+  font: 1em/1.5 sans-serif;
+  margin-right: -.25em;
+  padding: 0em;
+  position: relative;
+  top: 1.25em; }
