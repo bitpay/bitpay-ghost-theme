@@ -1,80 +1,42 @@
+
+
+
 //
-// Posts
+// Posts Page
 // --------------------------------------------------
 
 
-
-
-.post {
-  margin: 0;
-}
-
-
-.post-header {
-  margin-top: 2em;
-}
-
-.post-title {
-  font-family: Karla-Regular;
-  line-height: 28px;
-  font-weight: 400;
-  a {
-  font-size: 24px;
-  color: #546FB4;
+.author {
+  .author-image {
+    position: initial;
+    margin: 1em auto;
+  }
+  .author-name {
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-size: 1.3em;
+      letter-spacing: -1px;
+    }
+  }
+  .author-description {
+    font-size: 0.9em;
+    color: #A4A4A4;
+    line-height: 25px;
   }
 }
 
 
-.post-date {
-  font-family: Karla-Bold;
-  font-size: 14px;
-  color: #8A8A8A;
-  letter-spacing: 1px;
-  line-height: 17px;
-  margin-left: 0px;
-  padding-left: 0px;
-  border-left: none;
-}
 
-.post-excerpt {
-  font-family: Karla-Regular;
-  font-size: 16px;
-  color: #575757;
-  line-height: 27.39px;
-  margin-top: 1em;
-  text-align: justify;
-}
 
-.author-thumb {
-  width: 40px;
-  height: 40px;
-}
+.post-content {
 
-.post-meta {
-  a {
-    line-height: 3em;
-    line-height: 3em;
-    font-size: 15px;
-    color: #6B6B6B;
-    margin-left: 0.5em;
+  .post-title {
+    font-size: 2em;
   }
 
-}
-.post-tag {
-  display: inline-block;
-  border: 1px solid #AEC5FF;
-  background-color: #F2F6FF;
-  border-radius: 42px;
-  padding: 0px 12px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #546FB4;
-  margin-left: 1em;
-  a {
-    line-height: 28px;
-    letter-spacing: 1px;
-    color: #546FB4;
-    margin-left: 0;
-    font-size: 0.7em;
+  .post-meta {
+    margin-top: 1em;
   }
+
 }

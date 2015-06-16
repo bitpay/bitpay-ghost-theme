@@ -57,6 +57,73 @@ textarea, input {
   .header-input:focus {
     border: 1px solid #898989; }
 
+.author .author-image {
+  position: initial;
+  margin: 1em auto; }
+.author .author-name {
+  text-align: center; }
+  .author .author-name a {
+    text-decoration: none;
+    font-size: 1.3em;
+    letter-spacing: -1px; }
+.author .author-description {
+  font-size: 0.9em;
+  color: #A4A4A4;
+  line-height: 25px; }
+
+.post-content .post-title {
+  font-size: 2em; }
+.post-content .post-meta {
+  margin-top: 1em; }
+
+.sidebar-item {
+  margin-top: 2em;
+  padding-left: 1em; }
+
+.sidebar-title {
+  font-family: Karla-Bold;
+  font-size: 14px;
+  color: #8A8A8A;
+  letter-spacing: 1px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 1em; }
+
+.sidebar-categories a {
+  text-decoration: none;
+  color: #546FB4; }
+.sidebar-categories ul {
+  padding-left: 0; }
+.sidebar-categories li {
+  margin: 0em 0;
+  list-style-type: none; }
+
+.sidebar-about p {
+  font-family: Karla-Regular;
+  font-size: 15px;
+  color: rgba(121, 121, 121, 0.9);
+  line-height: 28.5px; }
+
+.sidebar-social ul {
+  text-align: justify;
+  padding-left: 0; }
+.sidebar-social ul:after {
+  content: '';
+  display: inline-block;
+  width: 100%; }
+.sidebar-social ul:before {
+  content: '';
+  display: block;
+  margin-top: -1.25em; }
+.sidebar-social li {
+  color: #fff;
+  display: inline-block;
+  font: 1em/1.5 sans-serif;
+  margin-right: -.25em;
+  padding: 0em;
+  position: relative;
+  top: 1.25em; }
+
 .post {
   margin: 0; }
 
@@ -116,51 +183,3 @@ textarea, input {
     color: #546FB4;
     margin-left: 0;
     font-size: 0.7em; }
-
-.sidebar-item {
-  margin-top: 2em;
-  padding-left: 1em; }
-
-.sidebar-title {
-  font-family: Karla-Bold;
-  font-size: 14px;
-  color: #8A8A8A;
-  letter-spacing: 1px;
-  line-height: 17px;
-  text-transform: uppercase;
-  margin-bottom: 1em; }
-
-.sidebar-categories a {
-  text-decoration: none;
-  color: #546FB4; }
-.sidebar-categories ul {
-  padding-left: 0; }
-.sidebar-categories li {
-  margin: 0em 0;
-  list-style-type: none; }
-
-.sidebar-about p {
-  font-family: Karla-Regular;
-  font-size: 15px;
-  color: rgba(121, 121, 121, 0.9);
-  line-height: 28.5px; }
-
-.sidebar-social ul {
-  text-align: justify;
-  padding-left: 0; }
-.sidebar-social ul:after {
-  content: '';
-  display: inline-block;
-  width: 100%; }
-.sidebar-social ul:before {
-  content: '';
-  display: block;
-  margin-top: -1.25em; }
-.sidebar-social li {
-  color: #fff;
-  display: inline-block;
-  font: 1em/1.5 sans-serif;
-  margin-right: -.25em;
-  padding: 0em;
-  position: relative;
-  top: 1.25em; }
