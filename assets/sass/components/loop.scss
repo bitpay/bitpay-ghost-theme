@@ -13,6 +13,7 @@
 }
 
 .post-title {
+  margin-bottom: 0;
   line-height: 28px;
   font-weight: 400;
   a {
@@ -29,13 +30,13 @@
   margin-left: 0px;
   padding-left: 0px;
   border-left: none;
+  margin: 0.9em 0;
 }
 
 .post-excerpt {
   font-size: 16px;
   color: #575757;
   line-height: 27.39px;
-  margin-top: 1em;
   text-align: justify;
 }
 

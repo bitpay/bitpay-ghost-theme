@@ -19,6 +19,7 @@
   padding: 0px 12px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: #546FB4;
   margin-left: 1em;
   a {
@@ -27,5 +28,9 @@
     color: #546FB4;
     margin-left: 0;
     font-size: 0.5em!important;
+  }
+  &:hover {
+    border: 1px solid #AEC5FF;
+    text-decoration: none;
   }
 }
