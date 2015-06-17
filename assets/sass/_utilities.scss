@@ -1,3 +1,31 @@
+//
+// Utiltiies
+// --------------------------------------------------
+
 .border-left {
   border-left: 1px solid #f2f2f2;
+}
+
+.padding-left-none {
+  padding-left: 0;
+}
+
+
+.post-tag {
+  display: inline-block;
+  border: 1px solid #AEC5FF;
+  background-color: #F2F6FF;
+  border-radius: 42px;
+  padding: 0px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #546FB4;
+  margin-left: 1em;
+  a {
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #546FB4;
+    margin-left: 0;
+    font-size: 0.5em!important;
+  }
 }

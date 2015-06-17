@@ -2,28 +2,18 @@
 
 
 
-// Variables
+// Design
 // -------------------------------------------------
 @import 'variables';
-
-
-
-// Utilities
-// -------------------------------------------------
+@import 'typography';
 @import 'utilities';
-
-
-
-// Layout
-// -------------------------------------------------
 @import 'layout';
-
-
 
 
 // Components
 // --------------------------------------------------
 @import 'components/header';
+@import 'components/loop';
 @import 'components/posts';
 @import 'components/sidebar';
-@import 'components/loop';
+@import 'components/footer';

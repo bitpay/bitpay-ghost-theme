@@ -17,55 +17,104 @@
             <input class="header-input" type="text" value="Submit" placeholder="Email Address">
         </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    {{!-- <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a> --}}
 </header>
 
 
 
-
-
-
 <div class="inner">
+  <div class="row">
 
 
+      <main id="content" class="content large-9 columns" role="main">
 
-    {{! The main content area on the homepage }}
-    <main id="content" class="content large-9 columns" role="main">
-    {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
-    </main>
+      {{> "loop"}}
+      </main>
 
 
-    <div class="large-3 columns" style="border-left: 1px solid #f2f2f2;">
+      <div class="large-3 columns" style="border-left: 1px solid #f2f2f2;">
 
-      <div class="sidebar-item sidebar-categories">
-        <div class="sidebar-title">Categories</div>
+        <div class="sidebar-item sidebar-categories">
+          <div class="sidebar-title">Categories</div>
+          <ul>
+            <a href="/tag/events"><li>Events</li></a>
+            <a href="/tag/engineering"><li>Engineering</li></a>
+            <a href="/tag/merchants"><li>Merchants</li></a>
+            <a href="/tag/product"><li>Product</li></a>
+            <a href="/tag/team"><li>Team</li></a>
+          </ul>
+        </div>
+
+        <div class="sidebar-item sidebar-about ">
+          <div class="sidebar-title">About</div>
+          <p>{{@blog.description}}</p>
+        </div>
+
+        <div class="sidebar-item sidebar-social">
+          <div class="sidebar-title">Social</div>
+          <ul>
+            <li><a href="#"><img src="/assets/images/social-rss.svg"></a></li>
+            <li><a href="#"><img src="/assets/images/social-facebook.svg"></a></li>
+            <li><a href="#"><img src="/assets/images/social-github.svg"></a></li>
+            <li><a href="#"><img src="/assets/images/social-linkedin.svg"></a></li>
+            <li><a href="#"><img src="/assets/images/social-twitter.svg"></a></li>
+          </ul>
+        </div>
+
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="inner">
+
+    <div class="row">
+
+      <div class="column large-3 padding-left-none">
+        <div class="footer-heading">Platform</div>
         <ul>
-          <a href="/tag/events"><li>Events</li></a>
-          <a href="/tag/engineering"><li>Engineering</li></a>
-          <a href="/tag/merchants"><li>Merchants</li></a>
-          <a href="/tag/product"><li>Product</li></a>
-          <a href="/tag/team"><li>Team</li></a>
+          <li>Tour</li>
+          <li>Features</li>
+          <li>Integrations</li>
+          <li>Pricing</li>
         </ul>
       </div>
 
-
-      <div class="sidebar-item sidebar-about ">
-        <div class="sidebar-title">About</div>
-        <p>{{@blog.description}}</p>
-      </div>
-
-      <div class="sidebar-item sidebar-social">
-        <div class="sidebar-title">Social</div>
+      <div class="column large-3 padding-left-none">
+        <div class="footer-heading">Resources</div>
         <ul>
-          <li><a href="#"><img src="assets/images/social-rss.svg"></a></li>
-          <li><a href="#"><img src="assets/images/social-facebook.svg"></a></li>
-          <li><a href="#"><img src="assets/images/social-github.svg"></a></li>
-          <li><a href="#"><img src="assets/images/social-linkedin.svg"></a></li>
-          <li><a href="#"><img src="assets/images/social-twitter.svg"></a></li>
+          <li>Help & Support</li>
+          <li>Documentation</li>
+          <li>Exchange Rates</li>
+          <li>API & SDKS</li>
         </ul>
       </div>
 
+      <div class="column large-3 padding-left-none">
+        <div class="footer-heading">Open Source</div>
+        <ul>
+          <li>Bitcore</li>
+          <li>Copay</li>
+          <li>Forums</li>
+          <li>Github</li>
+        </ul>
+      </div>
+
+      <div class="column large-3 padding-left-none">
+        <div class="footer-heading">Company</div>
+        <ul>
+          <li>About</li>
+          <li>Team</li>
+          <li>Press</li>
+          <li>Github</li>
+        </ul>
+      </div>
 
     </div>
+
+  <div class="row">
+    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+  </div>
+  </div>
+
 </div>
