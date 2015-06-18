@@ -12,21 +12,18 @@
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{tag.name}}</h1>
-            {{!-- <h2 class="page-description">
-                {{#if tag.description}}
-                    {{tag.description}}
-                {{else}}
-                    A {{pagination.total}}-post collection
-                {{/if}}
-            </h2> --}}
         </div>
     </div>
 </header>
 
 {{! The main content area on the homepage }}
-<main class="content" role="main">
+<main class="content tag-page" role="main">
   <div class="inner">
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
   </div>
 </main>
+
+<div class="clearfix"></div>
+{{> "cta"}}
+{{> "footer"}}
