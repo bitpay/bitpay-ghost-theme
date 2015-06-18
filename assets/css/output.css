@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6, h6, p {
   font-family: 'Karla', sans-serif;
   color: #575757; }
 
+pre {
+  background: #26292C;
+  color: #fff; }
+
 .border-left {
   border-left: 1px solid #f2f2f2; }
 
@@ -36,6 +40,12 @@ h1, h2, h3, h4, h5, h6, h6, p {
   .post-tag:hover {
     border: 1px solid #AEC5FF;
     text-decoration: none; }
+
+.cta-banner {
+  background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%);
+  text-align: center;
+  padding: 4em 0;
+  border-top: 1px solid #E9E9E9; }
 
 body {
   background-color: #F7F8F9; }
@@ -64,6 +74,11 @@ body {
   background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%);
   max-height: 30vh;
   border-bottom: 1px solid #EDEDED; }
+
+.no-cover .main-nav.overlay {
+  background-image: -webkit-linear-gradient(269deg, #1b377d 0%, #1d3e92 98%);
+  background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%);
+  height: 100%; }
 
 .post-head.main-header {
   height: 41vh; }
