@@ -11,6 +11,9 @@
 }
 
 
+
+
+
 .post-tag {
   display: inline-block;
   border: 1px solid #AEC5FF;
@@ -37,12 +40,15 @@
 
 
 .cta-banner {
-  background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
+  background-image: linear-gradient(-1deg, #F3F3F3 26%, #FAFAFA 75%, white 105%);
   text-align: center;
-  padding: 4em 0;
+  padding: 4.25em 0;
   border-top: 1px solid #E9E9E9;
   .cta-header {
-
+    font-size: 24px;
+    color: #898989;
+    line-height: 28px;
+    margin-bottom: 1em;
   }
   .cta-button {
 

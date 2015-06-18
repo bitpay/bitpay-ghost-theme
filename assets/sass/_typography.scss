@@ -17,5 +17,16 @@ h1, h2, h3, h4, h5, h6, h6, p {
 
 pre {
   background: #26292C!important;
+  // background-image: -webkit-linear-gradient(269deg, #1b377d 0%, #1d3e92 98%)!important;
+  // background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%)!important;
+}
 
+a {
+  color: #4C6EC6;
+  font-weight: 400;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: #375092!important;
+  }
 }

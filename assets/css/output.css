@@ -13,6 +13,14 @@ h1, h2, h3, h4, h5, h6, h6, p {
 pre {
   background: #26292c !important; }
 
+a {
+  color: #4C6EC6;
+  font-weight: 400;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    color: #375092 !important; }
+
 .border-left {
   border-left: 1px solid #f2f2f2; }
 
@@ -41,10 +49,15 @@ pre {
     text-decoration: none; }
 
 .cta-banner {
-  background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%);
+  background-image: linear-gradient(-1deg, #f3f3f3 26%, #fafafa 75%, white 105%);
   text-align: center;
-  padding: 4em 0;
+  padding: 4.25em 0;
   border-top: 1px solid #E9E9E9; }
+  .cta-banner .cta-header {
+    font-size: 24px;
+    color: #898989;
+    line-height: 28px;
+    margin-bottom: 1em; }
 
 body {
   background-color: #F7F8F9; }
