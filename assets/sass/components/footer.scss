@@ -1,5 +1,8 @@
 .footer {
   background-color: #f2f2f2;
+  a {
+    color: #fff;
+  }
   /* footer-bg: */
   opacity: 0.89;
   background-image: linear-gradient(-179deg, #0F2253 0%, #12214E 100%);
@@ -36,8 +39,4 @@
   li {
     list-style-type: none;
   }
-
 }
-
-
-/* PLATFORM: */

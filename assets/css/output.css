@@ -114,7 +114,8 @@ body {
   opacity: 0.90; }
 
 .header-input {
-  width: 21em;
+  width: 100%;
+  max-width: 26em;
   height: 2em;
   padding: 1em;
   border-radius: 124px;
@@ -241,6 +242,8 @@ textarea, input {
   min-width: 100%;
   color: #fff;
   padding: 4em 0; }
+  .footer a {
+    color: #fff; }
   .footer .footer-heading {
     text-transform: uppercase;
     font-size: 0.9em;
@@ -264,4 +267,5 @@ textarea, input {
   .footer li {
     list-style-type: none; }
 
-/* PLATFORM: */
+p, ul, ol, dl {
+  -webkit-font-feature-settings: initial !important; }

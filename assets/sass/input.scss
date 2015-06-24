@@ -17,3 +17,9 @@
 @import 'components/posts';
 @import 'components/sidebar';
 @import 'components/footer';
+
+
+p, ul, ol, dl {
+  // this hides the numbers for some reason
+  -webkit-font-feature-settings: initial!important;
+}
