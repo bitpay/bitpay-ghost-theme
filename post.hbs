@@ -6,12 +6,12 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-  <nav class="main-nav overlay clearfix">
+<header class="main-header {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+  <nav class="main-nav overlay">
     <div class="main-header-content inner">
       {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
       {{#if @blog.navigation}}
-          <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        <div class="menu-button">Menu</div>
       {{/if}}
     </div>
   </nav>
@@ -28,10 +28,8 @@
             <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
         </figure>
         {{/if}}
-
         <section class="author">
             <div class="author-name"><a href="{{url}}">{{name}}</a></h4>
-
             {{#if bio}}
                 <div class="author-description">{{bio}}</div>
             {{/if}}
@@ -41,11 +39,8 @@
 
 
 
-
-
-  <main class="content large-10 columns" role="main">
+  <main class="content large-10 columns " role="main">
     <section class="post-content">
-
         <article class="{{post_class}}">
             <header class="post-header">
                 <div class="post-title">{{title}}</div>
@@ -57,21 +52,14 @@
             <section class="post-content">
                 {{content}}
             </section>
-
         </article>
-
-            <footer class="post-footer">
-              {{! Everything inside the #author tags pulls data from the author }}
-            </footer>
+        <footer class="post-footer">
+          {{! Everything inside the #author tags pulls data from the author }}
+        </footer>
   </main>
 
+
 </div>
-
-
-
-
-
-
 
 
 {{/post}}

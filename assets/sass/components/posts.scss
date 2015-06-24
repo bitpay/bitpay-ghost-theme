@@ -1,7 +1,11 @@
 //
 // Posts Page
 // --------------------------------------------------
-
+.post {
+  .main-nav.overlay {
+    position: initial;
+  }
+}
 
 .post-author {
   .author-image {

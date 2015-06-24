@@ -3,17 +3,16 @@
 
 {{! The big featured header }}
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+
     <nav class="main-nav overlay clearfix">
       <div class="main-header-content inner">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
           <div class="menu-button">Menu</div>
         {{/if}}
-
-
-
       </div>
     </nav>
+
     <div class="vertical">
         <div class="inner">
             <h1 class="page-title">{{@blog.title}}</h1>
@@ -23,32 +22,21 @@
             <input class="header-input" type="text" value="Submit" placeholder="Email Address">
         </div>
     </div>
-    {{!-- <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a> --}}
+
 </header>
 
 
 
 <div class="inner">
   <div class="row">
-
-
       <main id="content" class="content large-9 columns" role="main">
-
       {{> "loop"}}
       </main>
-
-
       <div class="large-3 columns" style="border-left: 1px solid #f2f2f2;">
-
         {{> "sidebar"}}
-
       </div>
   </div>
 </div>
-
-
-
-
 
 
 {{> "cta"}}

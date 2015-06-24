@@ -3,30 +3,43 @@
 // --------------------------------------------------
 
 // If there is no cover image
-.no-cover.main-header {
-  background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
-  max-height: 30vh;
-  border-bottom: 1px solid #EDEDED;
-}
+// .no-cover.main-header {
+//   background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
+//   max-height: 30vh;
+//   border-bottom: 1px solid #EDEDED;
+// }
 
-// no cover on post
-.no-cover .main-nav.overlay {
+
+
+.no-cover.main-header {
   background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
   background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
-  height: 100%;
+  background-image: url(/content/images/2015/06/banner-2.jpg);
+  background-size: cover;
+  // height: 100px;
+  // min-height: 0;
+  // max-height: 1000px;
 }
 
 
+// No header on post page
+.main-header.post-head.no-cover {
+  // background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
+  // background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
+}
+
+// ????
 .post-head.main-header {
   height: 41vh;
 }
 
-
+// Appears on every page
 .main-header {
   margin-bottom: 0;
   height: 42vh;
 }
 
+// Header Typography
 .page-title {
   font-family: Karla-Regular;
   line-height: 28px;
