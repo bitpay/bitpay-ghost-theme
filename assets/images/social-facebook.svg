@@ -3,11 +3,16 @@
     <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
     <title>social-facebook</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="blog_main-copy-5" sketch:type="MSArtboardGroup" transform="translate(-1020.000000, -875.000000)" fill="#546FB4">
-            <g id="social-facebook" sketch:type="MSLayerGroup" transform="translate(1020.000000, 875.343398)">
-                <path d="M7.11822934,6.62353134 L7.11822934,4.65199584 C7.11822934,3.76195881 7.32955177,3.31176567 8.81436993,3.31176567 L10.677344,3.31176567 L10.677344,0 L7.56867979,0 C3.75931487,0 2.5025025,1.62483503 2.5025025,4.41396268 L2.5025025,6.62353134 L0,6.62353134 L0,9.935297 L2.5025025,9.935297 L2.5025025,19.870594 L7.11822934,19.870594 L7.11822934,9.935297 L10.2546991,9.935297 L10.677344,6.62353134 L7.11822934,6.62353134 L7.11822934,6.62353134 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.5376276%" id="linearGradient-1">
+            <stop stop-color="#546FB4" offset="0%"></stop>
+            <stop stop-color="#475D97" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="blog_main-copy-6" sketch:type="MSArtboardGroup" transform="translate(-1021.000000, -485.000000)" fill="url(#linearGradient-1)">
+            <g id="social-facebook" sketch:type="MSLayerGroup" transform="translate(1021.000000, 485.475000)">
+                <path d="M7.11822934,6.62353134 L7.11822934,4.65199584 C7.11822934,3.76195881 7.32955177,3.31176567 8.81436993,3.31176567 L10.677344,3.31176567 L10.677344,1.13686838e-13 L7.56867979,1.13686838e-13 C3.75931487,1.13686838e-13 2.5025025,1.62483503 2.5025025,4.41396268 L2.5025025,6.62353134 L0,6.62353134 L0,9.935297 L2.5025025,9.935297 L2.5025025,19.870594 L7.11822934,19.870594 L7.11822934,9.935297 L10.2546991,9.935297 L10.677344,6.62353134 L7.11822934,6.62353134 L7.11822934,6.62353134 Z" id="Shape" sketch:type="MSShapeGroup"></path>
             </g>
         </g>
     </g>

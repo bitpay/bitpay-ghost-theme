@@ -3,11 +3,16 @@
     <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
     <title>social-rss</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="blog_main-copy-5" sketch:type="MSArtboardGroup" transform="translate(-971.000000, -875.000000)" fill="#546FB4">
-            <g id="social-rss" sketch:type="MSLayerGroup" transform="translate(971.000000, 875.343398)">
-                <g id="Group" transform="translate(0.000000, -0.000000)" sketch:type="MSShapeGroup">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.5376276%" id="linearGradient-1">
+            <stop stop-color="#546FB4" offset="0%"></stop>
+            <stop stop-color="#475D97" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="blog_main-copy-6" sketch:type="MSArtboardGroup" transform="translate(-972.000000, -485.000000)" fill="url(#linearGradient-1)">
+            <g id="social-rss" sketch:type="MSLayerGroup" transform="translate(972.000000, 485.475000)">
+                <g id="Group" transform="translate(0.000000, 0.000000)" sketch:type="MSShapeGroup">
                     <path d="M2.91145833,14.171875 C1.30729167,14.171875 0,15.4791667 0,17.078125 C0,18.6822917 1.30729167,19.9739583 2.91145833,19.9739583 C4.52083333,19.9739583 5.82291667,18.6770833 5.82291667,17.078125 C5.82291667,15.4791667 4.52083333,14.171875 2.91145833,14.171875 L2.91145833,14.171875 Z" id="Shape"></path>
                     <path d="M0,6.66666667 L0,10.828125 C2.5,10.828125 4.90104167,11.5677083 6.66666667,13.3333333 C8.43229167,15.0989583 9.16666667,17.4947917 9.16666667,20 L13.3333333,20 C13.3333333,12.7135417 7.29166667,6.66666667 0,6.66666667 L0,6.66666667 Z" id="Shape"></path>
                     <path d="M0,0 L0,4.16145833 C8.90625,4.16145833 15.828125,11.0885417 15.828125,20 L20,20 C20,8.97395833 11.0416667,0 0,0 L0,0 Z" id="Shape"></path>
