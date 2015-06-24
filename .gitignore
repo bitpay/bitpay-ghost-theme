@@ -20,3 +20,5 @@ projectFilesBackup
 
 .DS_Store
 .sass-cache
+.sass-cache
+.sass-cache/*
