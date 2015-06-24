@@ -18,7 +18,6 @@ a {
   font-weight: 400;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline;
     color: #375092 !important; }
 
 .border-left {
@@ -105,13 +104,21 @@ body {
 .page-title {
   font-family: Karla-Regular;
   line-height: 28px;
-  margin-bottom: 1em;
+  margin-bottom: .25em;
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff !important;
   font-weight: 700;
-  opacity: 0.90; }
+  opacity: 0.90;
+  line-height: 1em; }
+
+.page-subtitle {
+  opacity: 0.75;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 20px;
+  margin: 1.5em 0; }
 
 .header-input {
   width: 100%;
@@ -125,6 +132,22 @@ body {
 
 textarea, input {
   outline: none; }
+
+.nav {
+  background-color: #0E1C40; }
+
+.nav li a:after {
+  content: ''; }
+
+.nav .nav-current a:after {
+  content: " ";
+  border-width: 0px; }
+
+.menu-button {
+  cursor: pointer; }
+
+.nav li:before {
+  content: none; }
 
 .post {
   margin: 0; }
@@ -236,9 +259,8 @@ textarea, input {
 
 .footer {
   background-color: #f2f2f2;
-  /* footer-bg: */
-  opacity: 0.89;
-  background-image: linear-gradient(-179deg, #0f2253 0%, #12214e 100%);
+  background-color: #1C3A88;
+  background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%);
   min-width: 100%;
   color: #fff;
   padding: 4em 0; }
