@@ -27,3 +27,27 @@ a {
     color: #375092!important;
   }
 }
+
+
+
+// Header Typography
+.page-title {
+  font-family: Karla-Regular;
+  line-height: 28px;
+  margin-bottom: .25em;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff !important;
+  font-weight: 700;
+  opacity: 0.90;
+  line-height: 1em;
+}
+
+.page-subtitle {
+  opacity: 0.75;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 20px;
+  margin: 1.5em 0;
+}

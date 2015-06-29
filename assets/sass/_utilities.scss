@@ -55,3 +55,16 @@
   .cta-button {
   }
 }
+
+
+.header-input {
+  width: 100%;
+  max-width: 26em;
+  height: 2em;
+  padding: 1em;
+  border-radius: 124px;
+  border: 1px solid #C6C6C6;
+  &:focus {
+    border: 1px solid #898989;
+  }
+}

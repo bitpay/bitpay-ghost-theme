@@ -2,13 +2,13 @@
 // Header: CSS changes for navigation menu
 // --------------------------------------------------
 
-// If there is no cover image
-.no-cover.main-header {
-  background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
-  max-height: 30vh;
-  border-bottom: 1px solid #EDEDED;
+// Defines height of main header
+.main-header {
+  margin-bottom: 0;
+  height: 42vh;
 }
 
+// If there is no cover image
 .no-cover.main-header {
   background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
   background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
@@ -18,78 +18,11 @@
   padding: 0;
 }
 
-// hack
-.no-cover {
-  .main-nav {
-    margin: -5px 0 25px 0;
-  }
-}
 
-
-// hack on the content for foundation to make it line up with logo
+// Take away padding left so aligns with logo
 .content {
   padding-left: 0!important;
   @media (max-width: 501px) {
     padding-left: 0.9375em!important;
-  }
-}
-
-// hack to prevent posts with banners from moving around
-.main-header {
-  @media (max-height: 900px) {
-    padding: 0!important;
-  }
-}
-
-
-
-// No header on post page
-.main-header.post-head.no-cover {
-
-}
-
-// ????
-.post-head.main-header {
-  height: 41vh;
-}
-
-// Appears on every page
-.main-header {
-  margin-bottom: 0;
-  height: 42vh;
-}
-
-// Header Typography
-.page-title {
-  font-family: Karla-Regular;
-  line-height: 28px;
-  margin-bottom: .25em;
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fff !important;
-  font-weight: 700;
-  opacity: 0.90;
-  line-height: 1em;
-}
-
-.page-subtitle {
-  opacity: 0.75;
-  font-size: 17px;
-  color: #FFFFFF;
-  line-height: 20px;
-  margin: 1.5em 0;
-}
-
-
-.header-input {
-  width: 100%;
-  max-width: 26em;
-  height: 2em;
-  padding: 1em;
-  border-radius: 124px;
-  border: 1px solid #C6C6C6;
-  &:focus {
-    border: 1px solid #898989;
   }
 }
