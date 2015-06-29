@@ -3,13 +3,11 @@
 // --------------------------------------------------
 
 // If there is no cover image
-// .no-cover.main-header {
-//   background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
-//   max-height: 30vh;
-//   border-bottom: 1px solid #EDEDED;
-// }
-
-
+.no-cover.main-header {
+  background-image: linear-gradient(-1deg, #F6F6F7 0%, #FEFEFE 38%, #FFFFFF 97%);
+  max-height: 30vh;
+  border-bottom: 1px solid #EDEDED;
+}
 
 .no-cover.main-header {
   background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
@@ -45,11 +43,9 @@
 
 
 
-
 // No header on post page
 .main-header.post-head.no-cover {
-  // background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
-  // background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
+
 }
 
 // ????
@@ -96,33 +92,4 @@
   &:focus {
     border: 1px solid #898989;
   }
-}
-
-
-// Removes weird blue focus
-textarea, input { outline: none; }
-
-
-// Mobile Menu
-// Mostly overriding the default styles
-
-.nav {
-background-color: #0E1C40;
-}
-
-.nav li a:after {
-  content: '';
-}
-
-.nav .nav-current a:after {
-  content: " ";
-  border-width: 0px;
-}
-
-.menu-button {
-   cursor: pointer;
-}
-
-.nav li:before {
-  content: none;
 }

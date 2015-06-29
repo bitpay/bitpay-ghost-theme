@@ -1,0 +1,24 @@
+//
+// Mobile Menu: mostly overiding default styles
+// --------------------------------------------------
+
+.nav {
+background-color: #0E1C40;
+}
+
+.nav li a:after {
+  content: '';
+}
+
+.nav .nav-current a:after {
+  content: " ";
+  border-width: 0px;
+}
+
+.menu-button {
+   cursor: pointer;
+}
+
+.nav li:before {
+  content: none;
+}

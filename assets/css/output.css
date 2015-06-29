@@ -82,6 +82,11 @@ body {
     border-radius: 5em; }
 
 .no-cover.main-header {
+  background-image: linear-gradient(-1deg, #f6f6f7 0%, #fefefe 38%, white 97%);
+  max-height: 30vh;
+  border-bottom: 1px solid #EDEDED; }
+
+.no-cover.main-header {
   background-image: -webkit-linear-gradient(269deg, #1b377d 0%, #1d3e92 98%);
   background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%);
   min-height: 0;
@@ -137,9 +142,6 @@ body {
   border: 1px solid #C6C6C6; }
   .header-input:focus {
     border: 1px solid #898989; }
-
-textarea, input {
-  outline: none; }
 
 .nav {
   background-color: #0E1C40; }
@@ -269,7 +271,6 @@ textarea, input {
   top: 1.25em; }
 
 .footer {
-  background-color: #f2f2f2;
   background-color: #1C3A88;
   background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%);
   min-width: 100%;
@@ -302,3 +303,6 @@ textarea, input {
 
 p, ul, ol, dl {
   -webkit-font-feature-settings: initial !important; }
+
+textarea, input {
+  outline: none; }

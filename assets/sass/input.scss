@@ -11,13 +11,19 @@
 // Components
 // --------------------------------------------------
 @import 'components/header';
+@import 'components/menu';
 @import 'components/loop';
 @import 'components/posts';
 @import 'components/sidebar';
 @import 'components/footer';
 
 
+// Shame
+// --------------------------------------------------
 p, ul, ol, dl {
   // this hides the numbers for some reason
   -webkit-font-feature-settings: initial!important;
 }
+
+// Removes weird blue focus
+textarea, input { outline: none; }
