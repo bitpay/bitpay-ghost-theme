@@ -2,6 +2,10 @@
     #COLORS
 \*------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+.bp-background-gradient, .no-cover.main-header {
+  background: #18347B;
+  background-image: linear-gradient(-180deg, #18347b 0%, #2a4bae 100%); }
+
 body {
   font-family: 'Karla', sans-serif;
   -webkit-font-smoothing: antialiased; }
@@ -115,8 +119,6 @@ body {
   height: 42vh; }
 
 .no-cover.main-header {
-  background-image: -webkit-linear-gradient(269deg, #1b377d 0%, #1d3e92 98%);
-  background-image: linear-gradient(-179deg, #1b377d 0%, #1d3e92 98%);
   min-height: 0;
   max-height: 2000px;
   height: 20%;

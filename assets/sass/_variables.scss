@@ -4,4 +4,27 @@
     #COLORS
 \*------------------------------------*/
 
-$primary-color: #333;
+$body-bg:       #F7F8F9;
+
+$bp-light-blue: #3457C1;
+$bp-blue:       #18347B;
+$bp-dark-blue:  #0E1C40;
+
+
+$bp-grey-100:   #25282B;
+$bp-grey-90:    #3B3E41;
+$bp-grey-80:    #515456;
+$bp-grey-70:    #67696B;
+$bp-grey-60:    #7D7F80;
+$bp-grey-50:    #929495;
+$bp-grey-40:    #A8A9AB;
+$bp-grey-30:    #BDBEBF;
+$bp-grey-20:    #D4D4D5;
+$bp-grey-10:    #E9E9E9;
+$bp-grey-5:     #F4F4F4;
+
+
+.bp-background-gradient {
+  background: #18347B;
+  background-image: linear-gradient(-180deg, #18347B 0%, #2A4BAE 100%);
+}

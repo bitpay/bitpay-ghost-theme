@@ -10,8 +10,9 @@
 
 // If there is no cover image
 .no-cover.main-header {
-  background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
-  background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
+  // background-image: -webkit-linear-gradient(269deg,#1B377D 0%,#1D3E92 98%);
+  // background-image: linear-gradient(-179deg,#1B377D 0%,#1D3E92 98%);
+  @extend .bp-background-gradient;
   min-height: 0;
   max-height: 2000px;
   height: 20%;
