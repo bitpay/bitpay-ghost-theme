@@ -3,9 +3,10 @@
 // --------------------------------------------------
 
 .nav {
-background-color: #0E1C40;
+background-color: $bp-dark-blue;
 }
 
+// hacks to modify existing menu
 .nav li a:after {
   content: '';
 }
