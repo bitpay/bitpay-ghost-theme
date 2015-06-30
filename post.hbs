@@ -21,25 +21,7 @@
 <div class="inner">
 
 
-  <div class="sidebar large-2 columns post-author">
-    {{#author}}
-        {{#if image}}
-        <figure class="author-image">
-            <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
-        </figure>
-        {{/if}}
-        <section class="author">
-            <div class="author-name"><a href="{{url}}">{{name}}</a></h4>
-            {{#if bio}}
-                <div class="author-description">{{bio}}</div>
-            {{/if}}
-        </section>
-    {{/author}}
-  </div>
-
-
-
-  <main class="content large-10 columns " role="main">
+  <main class="content large-10 columns margin-top " role="main">
     <section class="post-content">
         <article class="{{post_class}}">
             <header class="post-header">
@@ -57,6 +39,25 @@
           {{! Everything inside the #author tags pulls data from the author }}
         </footer>
   </main>
+
+  <div class="sidebar large-2 columns post-author margin-top border-left">
+    {{#author}}
+        {{#if image}}
+        <figure class="author-image border-right">
+            <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+        </figure>
+        {{/if}}
+        <section class="author">
+            <div class="author-name"><a href="{{url}}">{{name}}</a></h4>
+            {{#if bio}}
+                <div class="author-description">{{bio}}</div>
+            {{/if}}
+        </section>
+    {{/author}}
+  </div>
+
+
+
 
 
 </div>

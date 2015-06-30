@@ -3,6 +3,7 @@
 // --------------------------------------------------
 
 .post {
+  margin: auto;
   .main-nav.overlay {
     position: initial;
   }
@@ -12,6 +13,9 @@
   .author-image {
     position: initial;
     margin: 1em auto;
+    margin-top: 0;
+    width: 125px;
+    height: 125px;
   }
   .author-name {
     text-align: center;
@@ -30,11 +34,17 @@
 
 
 .post-content {
+  img {
+    width: 100%;
+  }
+  .post-header {
+    margin-top: 0;
+  }
   .post-title {
     font-size: 2em;
+    line-height: 1.3;
   }
   .post-meta {
-    margin-top: 2em;
+    margin-top: 1.25em;
   }
-
 }
