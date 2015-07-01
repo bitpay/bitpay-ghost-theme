@@ -6,6 +6,9 @@
 
 .post {
   margin: auto;
+  margin-bottom: 2em;
+  border-bottom: none;
+  margin-left: 0;
   .main-nav.overlay {
     position: initial;
   }
@@ -51,6 +54,10 @@
 
 
 .post-content {
+  p:first-of-type {
+    font-size: 1.4em;
+    line-height: 1.6;
+  }
   img {
     width: 100%;
   }
@@ -63,5 +70,22 @@
   }
   .post-meta {
     margin-top: 1.25em;
+  }
+  .post-date {
+    font-weight: 600;
+
+  }
+  .post-footer {
+    border-top: none;
+    @media (max-width: 1025px) {
+      padding-bottom: 0;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .post-date {
+    display: inline-block;
   }
 }

@@ -40,10 +40,16 @@
     color: #546FB4;
     margin-left: 0;
     font-size: 0.5em!important;
+    &:hover {
+      border: 1px solid #AEC5FF;
+      text-decoration: none;
+      border: none;
+      border-color: #546FB4;
+    }
   }
   &:hover {
-    border: 1px solid #AEC5FF;
-    text-decoration: none;
+    transition: border-color .25s;
+    border-color: #546FB4;
   }
 }
 
@@ -55,7 +61,7 @@
   border-top: 1px solid #E9E9E9;
   .cta-header {
     font-size: 24px;
-    color: #898989;
+    color: $bp-grey-80;
     line-height: 28px;
     margin-bottom: 1em;
   }

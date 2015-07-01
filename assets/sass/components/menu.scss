@@ -23,3 +23,8 @@ background-color: $bp-dark-blue;
 .nav li:before {
   content: none;
 }
+
+.nav-closed .no-cover .menu-button {
+  border-color: #FFFFFF;
+  color: #F4F4F4;
+}

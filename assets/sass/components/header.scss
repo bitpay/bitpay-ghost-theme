@@ -8,6 +8,11 @@
   height: 42vh;
 }
 
+//overlay override
+.main-nav.overlay {
+  background: none;
+}
+
 // If there is no cover image
 .no-cover.main-header {
   @extend .bp-background-gradient;
