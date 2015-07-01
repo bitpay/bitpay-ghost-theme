@@ -201,41 +201,30 @@ body {
   font-size: 1em;
   color: #6B6B6B; }
 
+.social-icons {
+  margin-top: 10px; }
+
 .post {
   margin: auto; }
   .post .main-nav.overlay {
     position: initial; }
 
-.post-author {
-  margin-top: 3em;
-  border-left: 1px solid #f2f2f2; }
-  .post-author .author-image {
-    position: initial;
-    margin: 1em auto;
-    margin-top: 0;
-    width: 125px;
-    height: 125px; }
-  .post-author .author-name {
-    text-align: center; }
-    .post-author .author-name a {
-      text-decoration: none;
-      font-size: 1.3em;
-      letter-spacing: -1px; }
-  .post-author .author-description {
-    font-size: 0.9em;
-    color: #A4A4A4;
-    line-height: 25px; }
-  .post-author .social-icons {
-    margin-top: 10px; }
-    .post-author .social-icons .github {
-      margin-right: 2px; }
-    .post-author .social-icons .twitter {
-      margin-right: 2px; }
-  @media (max-width: 1025px) {
-    .post-author {
-      margin-top: 0;
-      margin-bottom: 3em;
-      border-left: 0px solid #f2f2f2; } }
+.post-author .author-image {
+  position: initial;
+  margin: 1em auto;
+  margin-top: 0;
+  width: 125px;
+  height: 125px; }
+.post-author .author-name {
+  text-align: center; }
+  .post-author .author-name a {
+    text-decoration: none;
+    font-size: 1.3em;
+    letter-spacing: -1px; }
+.post-author .author-description {
+  font-size: 0.9em;
+  color: #A4A4A4;
+  line-height: 25px; }
 
 .post-content img {
   width: 100%; }

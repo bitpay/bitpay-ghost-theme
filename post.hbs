@@ -25,7 +25,7 @@
     <section class="post-content">
         <article class="{{post_class}}">
             <header class="post-header">
-                <div class="post-title">{{title}}</div>
+                <h1 class="post-title">{{title}}</h1>
                 <section class="post-meta">
                     <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
                     <div class="post-tag">{{tags}}</div>
@@ -40,7 +40,7 @@
         </footer>
   </main>
 
-  <div class="sidebar large-2 columns post-author margin-top border-left">
+  <div class="sidebar large-2 columns post-author">
     {{#author}}
         {{#if image}}
         <figure class="author-image border-right">
@@ -52,6 +52,14 @@
             {{#if bio}}
                 <div class="author-description">{{bio}}</div>
             {{/if}}
+            <div class="social-icons">
+              {{#if website}}
+                  <a target="blank" class="github" href="{{website}}"><img src="/assets/images/user-github.svg"></a>
+              {{/if}}
+              {{#if location}}
+                  <a target="blank" class="twitter" href="{{location}}"><img src="/assets/images/user-twitter.svg"></a>
+              {{/if}}
+            </div>
         </section>
     {{/author}}
   </div>

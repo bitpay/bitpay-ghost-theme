@@ -2,6 +2,8 @@
 // Posts Page
 // --------------------------------------------------
 
+
+
 .post {
   margin: auto;
   .main-nav.overlay {
@@ -10,12 +12,14 @@
 }
 
 .post-author {
+  margin-top: 3em;
   .author-image {
     position: initial;
     margin: 1em auto;
     margin-top: 0;
     width: 125px;
     height: 125px;
+    // at 1025 px and under
   }
   .author-name {
     text-align: center;
@@ -30,6 +34,19 @@
     color: #A4A4A4;
     line-height: 25px;
   }
+  .social-icons {
+    margin-top: 10px;
+    .github{margin-right: 2px;};
+    .twitter{margin-right: 2px};
+  }
+
+  border-left: 1px solid #f2f2f2;
+  // this is for post-author
+  @media (max-width: 1025px) {
+    margin-top: 0;
+    margin-bottom: 3em;
+      border-left: 0px solid #f2f2f2;
+  }
 }
 
 
@@ -41,7 +58,7 @@
     margin-top: 0;
   }
   .post-title {
-    font-size: 2em;
+    // font-size: 2em;
     line-height: 1.3;
   }
   .post-meta {
