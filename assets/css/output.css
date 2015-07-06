@@ -153,6 +153,34 @@ body {
     .content {
       padding-left: 0.9375em !important; } }
 
+#mc_embed_signup {
+  max-width: 500px;
+  margin: 0 auto; }
+
+#mc_embed_signup input.email {
+  width: 100% !important;
+  border-radius: 5px !important;
+  border: none;
+  border-radius: 50px !important;
+  padding-left: 1em !important; }
+
+#mc-embedded-subscribe {
+  float: right !important;
+  position: relative !important;
+  bottom: 48px !important;
+  height: 38px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 18px !important;
+  border-bottom-right-radius: 18px !important;
+  max-width: 100px !important;
+  text-transform: uppercase;
+  background: #577ad0 !important;
+  font-size: 0.7em !important; }
+  #mc-embedded-subscribe:hover {
+    background: #6289e9 !important;
+    transition: background 0.3s; }
+
 .nav {
   background-color: #0e1c40; }
 

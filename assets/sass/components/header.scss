@@ -1,4 +1,4 @@
-//
+  //
 // Header: CSS changes for navigation menu
 // --------------------------------------------------
 
@@ -27,5 +27,46 @@
   padding-left: 0!important;
   @media (max-width: 501px) {
     padding-left: 0.9375em!important;
+  }
+}
+
+
+//
+// Mail Chimp
+// --------------------------------------------------
+
+
+#mc_embed_signup {
+  max-width: 500px;
+  margin: 0 auto;
+  #mc-embedded-subscribe {
+
+  }
+}
+// input itself
+#mc_embed_signup input.email {
+  width: 100%!important;
+  border-radius: 5px!important;
+  border: none;
+  border-radius: 50px!important;
+  padding-left: 1em!important;
+}
+
+#mc-embedded-subscribe {
+  float: right!important;
+  position: relative!important;
+  bottom: 48px!important;
+  height: 38px!important;
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+  border-top-right-radius: 18px!important;
+  border-bottom-right-radius: 18px!important;
+  max-width: 100px!important;
+  text-transform: uppercase;
+  background: #577AD0!important;
+  font-size: 0.7em!important;
+  &:hover {
+      background: #6289E9!important;
+      transition: background 0.3s;
   }
 }
