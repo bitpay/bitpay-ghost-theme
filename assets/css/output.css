@@ -181,6 +181,12 @@ body {
     background: #6289e9 !important;
     transition: background 0.3s; }
 
+.author-profile {
+  padding: 33px 15px 5rem 15px; }
+  @media (max-width: 901px) {
+    .author-profile {
+      padding-top: 0px !important; } }
+
 .nav {
   background-color: #0e1c40; }
 
