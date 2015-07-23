@@ -70,3 +70,13 @@
       transition: background 0.3s;
   }
 }
+
+//
+// Author Page
+// --------------------------------------------------
+.author-profile {
+  padding: 33px 15px 5rem 15px;
+  @media (max-width: 901px) {
+      padding-top: 0px!important;
+  }
+}

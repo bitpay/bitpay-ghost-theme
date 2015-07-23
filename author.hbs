@@ -6,7 +6,13 @@
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
 
-    <header class="main-header post-head" style="">
+    <header class="main-header post-head" class="author-banner"
+      style="
+        height: 100px;
+        min-height: 100px;
+        background: #18347B;
+        background-image: linear-gradient(-180deg, #18347b 0%, #2a4bae 100%);
+      ">
         <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
             {{#if @blog.navigation}}
