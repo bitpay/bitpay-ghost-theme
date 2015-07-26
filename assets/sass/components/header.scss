@@ -6,6 +6,11 @@
 .main-header {
   margin-bottom: 0;
   height: 42vh;
+  background-color: #2a4bae;
+  transition:all 0.25s linear;
+  -o-transition:all 0.25s linear;
+  -moz-transition:all 0.25s linear;
+  -webkit-transition:all 0.25s linear;
 }
 
 //overlay override

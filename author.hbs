@@ -31,7 +31,14 @@
         {{#if bio}}
             <h2 class="author-bio">{{bio}}</h2>
         {{/if}}
-            <div>{{location}}</div>
+        <div class="social-icons">
+          {{#if website}}
+              <a target="blank" class="github" href="{{website}}"><img src="/assets/images/user-github.svg"></a>
+          {{/if}}
+          {{#if location}}
+              <a target="blank" class="twitter" href="{{location}}"><img src="/assets/images/user-twitter.svg"></a>
+          {{/if}}
+        </div>
     </section>
 
 
