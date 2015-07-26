@@ -2,7 +2,7 @@
 // Typography
 // --------------------------------------------------
 
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 
 body {
   font-family: 'Karla', sans-serif;
@@ -18,13 +18,14 @@ h1, h2, h3, h4, h5, h6, h6, p {
 
 pre {
   background: $bp-grey-100!important;
+  color: #fff;
 }
 
 a {
   color: $bp-light-blue;
   text-decoration: none;
   &:hover {
-    color: #375092!important;
+    color: #375092;
   }
 }
 
