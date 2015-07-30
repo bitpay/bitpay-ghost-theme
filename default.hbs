@@ -4,7 +4,7 @@
     {{! Document Settings }}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <meta property="og:image" content="{{@blog.url}}{{asset "images/bitpay-blog.png"}}">
     {{! Page Meta }}
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
@@ -12,12 +12,12 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{asset "/assets/images/android-chrome-192x192.png"}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset "/assets/images/favicon-96x96.png"}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset "/assets/images/favicon-32x32.png"}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset "/assets/images/favicon-16x16.png"}}">
 
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="shortcut icon" href="{{asset "/assets/images/favicon.ico"}}">
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
