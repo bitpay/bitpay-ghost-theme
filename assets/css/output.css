@@ -25,6 +25,9 @@ a {
   a:hover {
     color: #375092; }
 
+p {
+  font-feature-settings: normal; }
+
 .page-title {
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
@@ -326,7 +329,7 @@ body {
   padding-left: 1em; }
 
 .sidebar-title {
-  font-family: Karla-Bold;
+  font-family: 'Karla', sans-serif;
   font-size: 14px;
   color: #8A8A8A;
   letter-spacing: 1px;
@@ -344,7 +347,7 @@ body {
   list-style-type: none; }
 
 .sidebar-about p {
-  font-family: Karla-Regular;
+  font-family: 'Karla', sans-serif;
   font-size: 15px;
   color: rgba(121, 121, 121, 0.9);
   line-height: 28.5px; }
