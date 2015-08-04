@@ -142,6 +142,12 @@ body {
   .pagination a {
     border-radius: 5em; }
 
+iframe {
+  margin: 0; }
+
+#twitter-widget-0 {
+  display: inline-block; }
+
 .main-header {
   margin-bottom: 0;
   height: 42vh;
