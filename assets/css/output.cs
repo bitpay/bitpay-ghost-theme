@@ -95,11 +95,11 @@ a {
     border: 1px solid #898989; }
 
 .cta-button {
-  background-color: #3457c1;
+  background-color: #4683e8;
   margin: 0 auto;
   color: #fff;
   border: none;
-  border-radius: 34px;
+  border-radius: 4px;
   padding: 1em 2.25em;
   text-transform: uppercase;
   letter-spacing: 1px; }
