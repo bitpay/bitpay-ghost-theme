@@ -132,6 +132,10 @@ body {
   margin-bottom: 0;
   height: 42vh; }
 
+.home-template .main-header {
+  margin-bottom: 0;
+  height: 35rem; }
+
 .no-cover.main-header {
   min-height: 0;
   max-height: 2000px;
