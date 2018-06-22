@@ -105,14 +105,15 @@ p {
     border: 1px solid #898989; }
 
 .cta-button {
-  background-color: #3457c1;
-  margin: 0 auto;
-  color: #fff;
-  border: none;
-  border-radius: 34px;
-  padding: 1em 2.25em;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
+    background-color: #3457c1;
+    margin: 0 auto;
+    color: #fff;
+    border: none;
+    border-radius: 34px;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+    font-size: .94em; }
 
 body {
   background-color: #f7f8f9;
