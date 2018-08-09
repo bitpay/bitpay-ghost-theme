@@ -1,5 +1,5 @@
 {
   "name": "bitpay",
   "version": "1.2.5",
-  "author.email":"cpustejovsky@bitpay.com"
+  "author": {"email": "cpustejovsky@bitpay.com"}
 }
