@@ -53,53 +53,11 @@
   }
 }
 
-.press {
-  body {
-    font-family: "Heebo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  }
-  h1 {
-    color: #343849;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.4;
-    margin-bottom: 10px;
-    margin-top: 0.2rem;
-    text-rendering: optimizeLegibility;
-  }
-  p {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: 1.25rem;
-    text-rendering: optimizeLegibility;
-  }
-  a {
-    color: #4683e8;
-    line-height: inherit;
-    text-decoration: none;
-  }
-  a:hover, a:focus {
-    color: #206ae3;
-  }
-  .lead {
-    font-size: 19.5;
-    line-height: 1.6;
-  }
-  .margin-bottom-none {
-    margin-bottom: 0;
-  }
-  .margin-bottom-less {
-    margin-bottom: 1rem;
-  }
-}
-
 
 .post-content {
 
   p:first-of-type {
-    font-size: 18px;
+    font-size: 1.25em;
     line-height: 1.6;
   }
   img {
