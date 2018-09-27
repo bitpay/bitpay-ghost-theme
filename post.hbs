@@ -6,18 +6,15 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header class="main-header {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-  <nav class="main-nav {{#if image}}overlay{{/if}}">
+<header class="main-header {{#if img_url}}" style="background-image: url({{img_url}}){{else}}no-cover{{/if}}">
+  <nav class="main-nav {{#if img_url}}overlay{{/if}}">
     <div class="main-header-content inner">
       {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
       {{#if @blog.navigation}}
-        <div class="menu-button">Menu</div>
       {{/if}}
     </div>
   </nav>
 </header>
-
-
 <div class="inner">
 
 
@@ -48,9 +45,9 @@
 
   <div class="sidebar large-2 columns post-author">
     {{#author}}
-        {{#if image}}
+        {{#if img_url}}
         <figure class="author-image border-right">
-            <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+            <a class="img" href="{{url}}" style="background-image: url({{img_url}})"><span class="hidden">{{name}}'s Picture</span></a>
         </figure>
         {{/if}}
         <section class="author">
